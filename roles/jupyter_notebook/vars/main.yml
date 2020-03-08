@@ -1,7 +1,7 @@
 ---
 jupyter_notebook:
   distro:
-    'redhat':
+    'amazon':
       '7':
         repos:
           - 'https://archive.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm'
