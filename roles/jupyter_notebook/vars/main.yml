@@ -2,7 +2,7 @@
 jupyter_notebook:
   distro:
     'amazon':
-      '7':
+      '2':
         repos:
           - 'https://archive.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm'
           - 'https://centos7.iuscommunity.org/ius-release.rpm'
