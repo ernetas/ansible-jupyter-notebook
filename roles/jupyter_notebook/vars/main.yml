@@ -7,6 +7,7 @@ jupyter_notebook:
           - 'https://archive.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm'
           - 'https://centos7.iuscommunity.org/ius-release.rpm'
         packages:
+          - 'amazon-linux-extras'
           - 'enchant-devel'
           - 'gcc'
           - 'gcc-c++'
@@ -17,7 +18,6 @@ jupyter_notebook:
           - 'python36-devel'
           - 'python36-pip'
           - 'python36-setuptools'
-          - 'python-pexpect'
           - 'python-ptyprocess'
           - 'R'
           - 'telnet'
