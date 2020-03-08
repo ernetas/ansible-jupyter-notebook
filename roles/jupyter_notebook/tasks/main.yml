@@ -1,10 +1,4 @@
 ---
-- name: Only supports Centos 7 for the time being
-  assert:
-    that:
-      - ansible_distribution == 'CentOS' and ansible_distribution_major_version == '7'
-  tags: ['always']
-
 - block:
   - name: Create a dedicated group to run Jupyter
     group:
