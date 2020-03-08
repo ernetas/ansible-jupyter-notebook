@@ -1,6 +1,30 @@
 ---
 jupyter_notebook:
   distro:
+    'redhat':
+      '7':
+        repos:
+          - 'https://archive.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm'
+          - 'https://centos7.iuscommunity.org/ius-release.rpm'
+        packages:
+          - 'enchant-devel'
+          - 'gcc'
+          - 'gcc-c++'
+          - 'java-1.8.0-openjdk'
+          - 'libSM-devel'
+          - 'opencv-devel'
+          - 'python36'
+          - 'python36-devel'
+          - 'python36-pip'
+          - 'python36-setuptools'
+          - 'python-pexpect'
+          - 'python-ptyprocess'
+          - 'R'
+          - 'telnet'
+          - 'vim'
+          - 'texlive'
+          - 'https://download2.rstudio.org/rstudio-server-rhel-1.1.463-x86_64.rpm'
+          - 'https://download1.rstudio.org/rstudio-1.1.463-x86_64.rpm'
     'centos':
       '7':
         repos:
